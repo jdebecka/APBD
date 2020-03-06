@@ -1,2 +1,2 @@
 # APBD
-PJWSTK dababase 4th semester course work
+Julia Debecka, 14C, s19420
