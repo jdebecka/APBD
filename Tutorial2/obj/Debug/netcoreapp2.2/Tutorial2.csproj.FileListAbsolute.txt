@@ -1,0 +1,12 @@
+E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\bin\Debug\netcoreapp2.2\Tutorial2.deps.json
+E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\bin\Debug\netcoreapp2.2\Tutorial2.runtimeconfig.json
+E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\bin\Debug\netcoreapp2.2\Tutorial2.runtimeconfig.dev.json
+E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\bin\Debug\netcoreapp2.2\Tutorial2.dll
+E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\bin\Debug\netcoreapp2.2\Tutorial2.pdb
+E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp2.2\Tutorial2.csprojAssemblyReference.cache
+E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp2.2\Tutorial2.csproj.CoreCompileInputs.cache
+E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp2.2\Tutorial2.AssemblyInfoInputs.cache
+E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp2.2\Tutorial2.AssemblyInfo.cs
+E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp2.2\Tutorial2.dll
+E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp2.2\Tutorial2.pdb
+E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp2.2\Tutorial2.genruntimeconfig.cache
