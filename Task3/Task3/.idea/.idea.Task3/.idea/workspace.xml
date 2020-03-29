@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fcd5d26d-a229-4b55-ac5e-7d43f5e07fd5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="5e235a30-43a3-4f90-93fb-f58e41697d62" />
+    </checked>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Task3/Controllers/StudentsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Task3/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Task3/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Task3/DAL/IDbService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Task3/DAL/MockDbService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Task3/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Task3/Models/Student.cs" />
+        <option value="$PROJECT_DIR$/Task3/DAL/IDbService.cs" />
+        <option value="$PROJECT_DIR$/Task3/Startup.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5e235a30-43a3-4f90-93fb-f58e41697d62/console.sql" />
+        <option value="$PROJECT_DIR$/Task3/Database" />
+        <option value="$PROJECT_DIR$/Task3/DAL/MockDbService.cs" />
+        <option value="$PROJECT_DIR$/Task3/Controllers/StudentsController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZorS7trN2lnNT4USlrdlKEH9Q5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver&#10;mysql" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.Task3">
+    <configuration name="Task3" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Task3/Task3.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="Task3" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Task3/Task3.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:2019SBD@db-mssql.pjwstk.edu.pl" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:2019SBD@db-mssql.pjwstk.edu.pl" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3bfc240c" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcd5d26d-a229-4b55-ac5e-7d43f5e07fd5" name="Default Changelist" comment="" />
+      <created>1585516284166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585516284166</updated>
+      <workItem from="1585516285644" duration="7041000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="320" y="113" key="#HTTP_Proxy" timestamp="1585519809149">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="320" y="113" key="#HTTP_Proxy/0.23.1440.814@0.23.1440.814" timestamp="1585519809149" />
+    <state x="278" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585523511009">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="278" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1585523511009" />
+    <state x="320" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.813@0.23.1440.813" timestamp="1585520241411" />
+    <state x="320" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.814@0.23.1440.814" timestamp="1585520006702" />
+    <state x="438" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585521813533">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="438" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1585521813533" />
+    <state x="487" y="140" key="ExecutionTargetDialog" timestamp="1585521193746">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="487" y="140" key="ExecutionTargetDialog/0.0.1440.900@0.0.1440.900" timestamp="1585521193746" />
+    <state width="1440" height="216" key="GridCell.Tab.0.bottom" timestamp="1585523954073">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="216" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585523954073" />
+    <state width="1440" height="216" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1585519380138" />
+    <state width="1440" height="216" key="GridCell.Tab.0.center" timestamp="1585523954069">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="216" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585523954069" />
+    <state width="1440" height="216" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1585519380138" />
+    <state width="1440" height="216" key="GridCell.Tab.0.left" timestamp="1585523954069">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="216" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585523954069" />
+    <state width="1440" height="216" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1585519380137" />
+    <state width="1440" height="216" key="GridCell.Tab.0.right" timestamp="1585523954071">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="216" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585523954071" />
+    <state width="1440" height="216" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1585519380138" />
+    <state width="239" height="552" key="HiddenNamespacesPopup" timestamp="1585523485978">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="239" height="552" key="HiddenNamespacesPopup/0.0.1440.900@0.0.1440.900" timestamp="1585523485978" />
+    <state width="239" height="498" key="HiddenNamespacesPopup/0.23.1440.813@0.23.1440.813" timestamp="1585520248944" />
+    <state width="239" height="498" key="HiddenNamespacesPopup/0.23.1440.814@0.23.1440.814" timestamp="1585520037556" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1585521102572">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585521102572" />
+    <state x="482" y="212" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1585521107214">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="482" y="212" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1440.900@0.0.1440.900" timestamp="1585521107214" />
+    <state x="385" y="160" width="670" height="676" key="search.everywhere.popup" timestamp="1585519059762">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="385" y="160" width="670" height="676" key="search.everywhere.popup/0.23.1440.813@0.23.1440.813" timestamp="1585519059762" />
+  </component>
+</project>

@@ -1,0 +1,27 @@
+create table Studies(
+    IdStudy int,
+    Name nvarchar(100),
+    constraint studies_pk primary key (IdStudy)
+);
+create table Enrollment(
+    IdEnrolment int,
+    Semester int, 
+    IdStudy int, 
+    StartDate datetime,
+    
+    constraint enrollment_pk primary key (IdEnrolment),
+    
+    foreign key (IdStudy) references Studies(IdStudy)                
+);
+
+
+create table student (
+    IndexNumber nvarchar(100),
+    FirstName nvarchar(100),
+    LastName nvarchar(100),
+    BirthDate datetime,
+    IdEnrollment int,
+    
+    constraint student_pk primary key (IndexNumber),
+    foreign key (IdEnrollment) references Enrollment(IdEnrolment)
+);
