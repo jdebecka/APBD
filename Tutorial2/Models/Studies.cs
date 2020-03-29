@@ -9,11 +9,11 @@ namespace Tutorial2.Models
     {
         [XmlAttribute(attributeName: "name")]
         [JsonPropertyName("name")]
-        private string Name { get; set; }
+        public string Name { get; set; }
 
         [XmlAttribute(attributeName: "mode")]
         [JsonPropertyName("mode")]
-        private string Mode { get; set; }
+        public string Mode { get; set; }
 
         public Studies(string name, string mode)
         {

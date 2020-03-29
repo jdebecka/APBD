@@ -5,10 +5,15 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="Tutorial2" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="CustomComparer.cs" t="Include" />
-        <e p="CustomComparerStudies.cs" t="Include" />
+        <e p="Comparers" t="Include">
+          <e p="CustomComparer.cs" t="Include" />
+          <e p="StudiesComparer.cs" t="Include" />
+        </e>
         <e p="Data" t="Include">
           <e p="dane.csv" t="Include" />
+          <e p="dane2.csv" t="Include" />
+          <e p="log.txt" t="Include" />
+          <e p="result.json" t="Include" />
         </e>
         <e p="Exception" t="Include">
           <e p="DuplicateMemberException.cs" t="Include" />
@@ -45,6 +50,6 @@
       <e p="Tutorial2_Solution.sln" t="IncludeFlat" />
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Tutorial2_Solution.21623586.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Tutorial2_Solution.1981249369.00" t="ExcludeRecursive" />
   </component>
 </project>

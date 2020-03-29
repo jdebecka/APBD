@@ -1,13 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Data.Common;
 using System.IO;
-using System.Reflection.Emit;
-using System.Runtime.Serialization.Formatters;
+using System.Linq;
 using System.Text;
 using RecursivePatterns;
 using Tutorial2.Exception;
+using Tutorial2.FileConverter;
 using Tutorial2.Models;
 
 namespace Tutorial2.FileReader
@@ -25,7 +23,7 @@ namespace Tutorial2.FileReader
                 {
                     string line = null;
                     //Check if line exist, because if line == null it means that we have reached the end of the file
-                    while ((line = stream.ReadLine()) != null)
+                    mainLoop: while ((line = stream.ReadLine()) != null)
                     {
                         var columns = line.Split(',');
                         if (columns.Length < 9)
@@ -33,34 +31,31 @@ namespace Tutorial2.FileReader
                             issueWhileReading(columns);
                         }
 
-                        foreach (var VARIABLE in columns)
+                        if(columns.Any(string.IsNullOrWhiteSpace))
                         {
-                            if(string.IsNullOrWhiteSpace(VARIABLE))
-                            {
-                                issueWhileReading(columns);
-                                break;
-                            }
+                            issueWhileReading(columns);
+                            continue;
                         }
-                        var newStudent = new Student(columns[0], columns[1], columns[4], columns[5], columns[6],
+                        var newStudent = new Student(columns[4], columns[0], columns[1], columns[5], columns[6],
                             columns[7], columns[8]);
-                        
-                        var studeies = new Studies(columns[2], columns[3]);
-
+                        var studies = new Studies(columns[2], columns[3]);
+                        newStudent.appendStudies(studies);
                         if(!listOfStudents.Add(newStudent))
                         {
                             try
                             {
-                                var str = new StringBuilder();
-                                str.Append(columns);
                                 throw new DuplicateMemberException(newStudent);
                             }
                             catch (System.Exception e)
                             {
-                                //doNothing
+
                             }
+
+                            var studentToUpdate = listOfStudents.First(stu => stu.IndexNumber == newStudent.IndexNumber);
+                            studentToUpdate.appendStudies(studies);
                         }
-                        
-                        newStudent.appendStudies(studeies);
+
+
                     }
                 }
             }
@@ -76,7 +71,20 @@ namespace Tutorial2.FileReader
             }
             
             //adding students to the university
-            new University(listOfStudents);
+            University university =  new University(listOfStudents);
+            if (finalFormat.Equals("xml", StringComparison.OrdinalIgnoreCase))
+            {
+                new XmlFormatter().Save(university, finPath);
+            }
+            else
+            {
+                new JsonFormatter().Serialize(university);
+            }
+            
+            foreach (var universityStudent in university.students)
+            {
+                Console.WriteLine(universityStudent);
+            }
             
             //Exception reporting
             void issueWhileReading(string[] columns)

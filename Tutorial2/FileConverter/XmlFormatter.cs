@@ -1,26 +1,19 @@
 using System;
 using System.IO;
 using System.Xml.Serialization;
+using Tutorial2.Models;
 
 namespace Tutorial2.FileConverter
 {
     public class XmlFormatter
     {
-        public void Save(Type dataType, object data, string filePath)
+        public void Save(University university, string filePath)
         {
-            using(var stream = new FileStream(filePath, FileMode.Create))
+            var parsedDate = DateTime.Parse("2000-02-12");
+            var xs = new XmlSerializer(typeof(University), new XmlRootAttribute("university"));
+            using(var writer = new FileStream(@"result.xml", FileMode.Create))
             {
-                XmlSerializer XML = new XmlSerializer(dataType);
-                XML.Serialize(stream, data);
-            }
-        }
-        
-        public void Save(Type dataType, object data, string parent, string filePath)
-        {
-            using(var stream = new FileStream(filePath, FileMode.Create))
-            {
-                XmlSerializer XML = new XmlSerializer((dataType), new XmlRootAttribute(parent));
-                XML.Serialize(stream, data);
+                xs.Serialize(writer, university);
             }
         }
     }

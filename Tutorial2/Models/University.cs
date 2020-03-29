@@ -1,49 +1,49 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 using System.Xml.Serialization;
-using Microsoft.VisualBasic;
 
 namespace Tutorial2.Models
 {
     [Serializable]
     public class University
     {
-        [XmlArrayItem("student", typeof(Student))] 
+        [XmlArrayItem("student", typeof(HashSet<Student>))] 
         [JsonPropertyName("students")]
         public HashSet<Student> students { get; set; }
 
-        [XmlArrayItem("activeStudies", typeof(ActiveStudies))]
-        private Dictionary<Studies, int> activeStudies { get; set; }
-
-
+        [JsonPropertyName("activeStudies")]
+        [XmlArrayItem("activeStudies", typeof(Dictionary<string, int>))] 
+        public Dictionary<string, int> activeStudies { get; set; }
+        
         public University(){ }
 
         public University(HashSet<Student> students)
         {
             this.students = students;
+            activeStudies = new Dictionary<String, int>();
+            appendActiveStudies();
 
         }
-
+        
         void appendActiveStudies()
         {
-            foreach (var VARIABLE in students)
+            foreach (var student in students)
             {
                 var subjectCount = activeStudies;
                 try
                 {
-                    foreach (var VarVar in VARIABLE.Studieses)
+                    foreach (var study in student.Studieses)
                     {
                         try
                         {
-                            activeStudies.Add(VarVar, 1);
+                            activeStudies.Add(study.Name, 1);
                         }
                         catch (ArgumentException)
                         {
-                            int studMore = activeStudies[VarVar];
+                            int studMore = activeStudies[study.Name];
                             studMore += 1;
-                            activeStudies.Add(VarVar, studMore);
+                            activeStudies[study.Name] = studMore;
                         }
                         
                     }

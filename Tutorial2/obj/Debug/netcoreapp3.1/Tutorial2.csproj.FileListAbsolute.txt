@@ -1,14 +1,13 @@
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\bin\Debug\netcoreapp3.1\Tutorial2.exe
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\bin\Debug\netcoreapp3.1\Tutorial2.deps.json
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\bin\Debug\netcoreapp3.1\Tutorial2.runtimeconfig.json
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\bin\Debug\netcoreapp3.1\Tutorial2.runtimeconfig.dev.json
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\bin\Debug\netcoreapp3.1\Tutorial2.dll
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\bin\Debug\netcoreapp3.1\Tutorial2.pdb
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp3.1\Tutorial2.csprojAssemblyReference.cache
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp3.1\Tutorial2.csproj.CoreCompileInputs.cache
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp3.1\Tutorial2.AssemblyInfoInputs.cache
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp3.1\Tutorial2.AssemblyInfo.cs
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp3.1\Tutorial2.dll
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp3.1\Tutorial2.pdb
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\obj\Debug\netcoreapp3.1\Tutorial2.genruntimeconfig.cache
-E:\PJATK work\APBD\Tutorial2_Solution\Tutorial2\bin\Debug\netcoreapp3.1\Data\dane.csv
+/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/bin/Debug/netcoreapp3.1/Data/dane.csv
+/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/bin/Debug/netcoreapp3.1/Tutorial2.deps.json
+/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/bin/Debug/netcoreapp3.1/Tutorial2.runtimeconfig.json
+/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/bin/Debug/netcoreapp3.1/Tutorial2.runtimeconfig.dev.json
+/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/bin/Debug/netcoreapp3.1/Tutorial2.dll
+/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/bin/Debug/netcoreapp3.1/Tutorial2.pdb
+/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.csprojAssemblyReference.cache
+/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.csproj.CoreCompileInputs.cache
+/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.AssemblyInfoInputs.cache
+/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.AssemblyInfo.cs
+/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.dll
+/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.pdb
+/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.genruntimeconfig.cache

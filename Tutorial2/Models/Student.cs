@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Runtime.Serialization;
 using System.Text.Json.Serialization;
 using System.Xml.Serialization;
+using Tutorial2.Exception;
 
 namespace Tutorial2.Models
 {
     [Serializable]
     public class Student
     {
-
         public Student(string index, string name, string lname, string dob, string email, string mName, string fName)
         {
             IndexNumber = index;
@@ -19,6 +19,7 @@ namespace Tutorial2.Models
             Email = email;
             MothersName = mName;
             FathersName = fName;
+            Studieses = new HashSet<Studies>(new StudiesComparer());
         }
 
         [XmlAttribute(attributeName:"index")]
@@ -49,13 +50,21 @@ namespace Tutorial2.Models
         [JsonPropertyName("fathersName")]
         public string FathersName{ get; set; }
         // [XmlArray("studies")]
-        [XmlElement(ElementName = "studies")]
+        [XmlArrayItem("activeStudies", typeof(HashSet<Studies>))] 
         [JsonPropertyName("studies")]
-        public List<Studies> Studieses { get; set; }
+        public HashSet<Studies> Studieses { get; set; }
 
         public void appendStudies(Studies degree)
         {
-            Studieses.Add(degree);
+            try
+            {
+                Studieses.Add(degree);
+            }
+            catch (System.Exception e)
+            {
+                throw new DuplicateMemberException(degree);
+            }
+            
         }
     }
 }

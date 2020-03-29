@@ -13,11 +13,15 @@ namespace Tutorial2
     {
         public static void Main(string[] args)
         {
-            string input;
+            string input = Console.ReadLine();
+            var userInput = input.Split(" ");
+            var initPath = userInput[0];
+            var finPath = userInput[1];
+            var finFormat = userInput[2];
+            
             do
             {
-                input = Console.ReadLine();
-                if (input.Length != 3)
+                if (initPath == "" || finPath == "" || finFormat == "")
                 {
                     try
                     {
@@ -25,16 +29,15 @@ namespace Tutorial2
                     }
                     catch (System.Exception ex)
                     {
-                        continue;
                     }
                 }
-                break;
+                else
+                {
+                    break;
+                }
+                input = Console.ReadLine();
             } while (true);
             
-            var userInput = input.Split(" ");
-            var initPath = userInput[0];
-            var finPath = userInput[1];
-            var finFormat = userInput[3];
             
             Reader.readFile(initPath, finPath, finFormat);
             
