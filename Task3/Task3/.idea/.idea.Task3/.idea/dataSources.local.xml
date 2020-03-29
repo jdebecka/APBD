@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="2019SBD@db-mssql.pjwstk.edu.pl" uuid="5e235a30-43a3-4f90-93fb-f58e41697d62">
+      <database-info product="Microsoft SQL Server" version="13.00.1742" jdbc-version="3.0" driver-name="jTDS Type 4 JDBC Driver for MS SQL Server and Sybase" driver-version="1.3.1" dbms="MSSQL" exact-version="13.0.1742">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>s19420</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="@localhost" uuid="8a2e76ac-7d4e-45b9-81af-415ebf1adf2c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>JuliaAPBD</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
