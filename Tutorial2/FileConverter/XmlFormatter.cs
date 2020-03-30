@@ -7,14 +7,11 @@ namespace Tutorial2.FileConverter
 {
     public class XmlFormatter
     {
-        public void Save(University university, string filePath)
+        public void Save(University university)
         {
-            var parsedDate = DateTime.Parse("2000-02-12");
-            var xs = new XmlSerializer(typeof(University), new XmlRootAttribute("university"));
-            using(var writer = new FileStream(@"result.xml", FileMode.Create))
-            {
-                xs.Serialize(writer, university);
-            }
+            FileStream writer = new FileStream(@"/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/Data/result.xml", FileMode.Create);
+            XmlSerializer serializer = new XmlSerializer(typeof(University));
+            serializer.Serialize(writer, university);
         }
     }
 }

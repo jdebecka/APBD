@@ -16,6 +16,7 @@ namespace Tutorial2.FileReader
         public static void readFile(string initPath, string finPath, string finalFormat)
         {
             var listOfStudents = new HashSet<Student>(new CustomComparer());
+            var activeStudies = new HashSet<ActiveStudies>(new ActiveStudiesComparer());
             var fi = new FileInfo(initPath);
             try
             {
@@ -36,26 +37,37 @@ namespace Tutorial2.FileReader
                             issueWhileReading(columns);
                             continue;
                         }
+                        
+                        //Creates new objects
                         var newStudent = new Student(columns[4], columns[0], columns[1], columns[5], columns[6],
                             columns[7], columns[8]);
                         var studies = new Studies(columns[2], columns[3]);
+                        var possibleActiveStudy = new ActiveStudies(studies);
+                        //appends studies to new Student
                         newStudent.appendStudies(studies);
+                        
+                        //tries to add student to list of student
+                        //if exists then appends additional studies to the existing student
                         if(!listOfStudents.Add(newStudent))
                         {
                             try
                             {
                                 throw new DuplicateMemberException(newStudent);
                             }
-                            catch (System.Exception e)
+                            catch (System.Exception)
                             {
-
                             }
-
                             var studentToUpdate = listOfStudents.First(stu => stu.IndexNumber == newStudent.IndexNumber);
                             studentToUpdate.appendStudies(studies);
                         }
 
-
+                        //tries to add active study
+                        //if exist then increases the number of students by 1
+                        if(!activeStudies.Add(possibleActiveStudy))
+                        {
+                            var studyToUpdate = activeStudies.First(active => active.StudyName == possibleActiveStudy.StudyName);
+                            studyToUpdate.increaseNumberOfStudents();
+                        }
                     }
                 }
             }
@@ -71,21 +83,15 @@ namespace Tutorial2.FileReader
             }
             
             //adding students to the university
-            University university =  new University(listOfStudents);
+            University university =  new University(listOfStudents, activeStudies);
             if (finalFormat.Equals("xml", StringComparison.OrdinalIgnoreCase))
             {
-                new XmlFormatter().Save(university, finPath);
+                new XmlFormatter().Save(university);
             }
             else
             {
                 new JsonFormatter().Serialize(university);
             }
-            
-            foreach (var universityStudent in university.students)
-            {
-                Console.WriteLine(universityStudent);
-            }
-            
             //Exception reporting
             void issueWhileReading(string[] columns)
             {

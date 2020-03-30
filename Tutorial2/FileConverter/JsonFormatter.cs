@@ -11,7 +11,7 @@ namespace Tutorial2.FileConverter
                 {
                     WriteIndented = true
                 });
-            File.WriteAllText(@"/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/Data/result.json", jsonString);
+            File.WriteAllText(@"/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/Data/result.json", jsonString);
         }
         }
     }

@@ -7,8 +7,15 @@
          public Reporter() { }
          public void Report(Exception ex, string description, SecurityLevel level)
          {
-             using var sw = new StreamWriter(@"/Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/Data/log.txt");
+             FileStream fs = new FileStream(@"/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/Data/log.txt", FileMode.Open, FileAccess.ReadWrite);
+             fs.Seek(0, SeekOrigin.Begin);
+        
+             StreamWriter sw = new StreamWriter(fs);
              sw.WriteLine($"{level}: {ex}, Description: {description}");
+             
+             sw.Close();
+             fs.Close();
+
          }
      }
  }

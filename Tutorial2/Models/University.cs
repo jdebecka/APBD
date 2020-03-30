@@ -8,52 +8,21 @@ namespace Tutorial2.Models
     [Serializable]
     public class University
     {
-        [XmlArrayItem("student", typeof(HashSet<Student>))] 
+        [XmlArrayItem("student", typeof(Student))] 
         [JsonPropertyName("students")]
-        public HashSet<Student> students { get; set; }
+        public HashSet<Student> Students { get; set; }
 
         [JsonPropertyName("activeStudies")]
-        [XmlArrayItem("activeStudies", typeof(Dictionary<string, int>))] 
-        public Dictionary<string, int> activeStudies { get; set; }
+        [XmlArrayItem("activeStudies", typeof(ActiveStudies))] 
+        public HashSet<ActiveStudies> ActiveStudies { get; set; }
         
         public University(){ }
 
-        public University(HashSet<Student> students)
+        public University(HashSet<Student> students, HashSet<ActiveStudies> activeStudies)
         {
-            this.students = students;
-            activeStudies = new Dictionary<String, int>();
-            appendActiveStudies();
+            Students = students;
+            ActiveStudies = activeStudies;
 
         }
-        
-        void appendActiveStudies()
-        {
-            foreach (var student in students)
-            {
-                var subjectCount = activeStudies;
-                try
-                {
-                    foreach (var study in student.Studieses)
-                    {
-                        try
-                        {
-                            activeStudies.Add(study.Name, 1);
-                        }
-                        catch (ArgumentException)
-                        {
-                            int studMore = activeStudies[study.Name];
-                            studMore += 1;
-                            activeStudies[study.Name] = studMore;
-                        }
-                        
-                    }
-                }
-                catch (ArgumentException)
-                {
-                    Console.WriteLine("An element with Key = \"txt\" already exists.");
-                }
-            }
-        }
-
     }
 }

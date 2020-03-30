@@ -7,13 +7,15 @@ namespace Tutorial2.Models
     [Serializable]
     public class Studies
     {
-        [XmlAttribute(attributeName: "name")]
+        [XmlAttribute("name")]
         [JsonPropertyName("name")]
         public string Name { get; set; }
 
-        [XmlAttribute(attributeName: "mode")]
+        [XmlAttribute("mode")]
         [JsonPropertyName("mode")]
         public string Mode { get; set; }
+
+        public Studies() { }
 
         public Studies(string name, string mode)
         {

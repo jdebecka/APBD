@@ -11,3 +11,16 @@
 /Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.dll
 /Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.pdb
 /Users/juliadebecka/Desktop/4th_semester/Tutorial2_Solution/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.genruntimeconfig.cache
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/bin/Debug/netcoreapp3.1/Data/dane.csv
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/bin/Debug/netcoreapp3.1/Tutorial2.deps.json
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/bin/Debug/netcoreapp3.1/Tutorial2.runtimeconfig.json
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/bin/Debug/netcoreapp3.1/Tutorial2.runtimeconfig.dev.json
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/bin/Debug/netcoreapp3.1/Tutorial2.dll
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/bin/Debug/netcoreapp3.1/Tutorial2.pdb
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.csprojAssemblyReference.cache
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.csproj.CoreCompileInputs.cache
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.AssemblyInfoInputs.cache
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.AssemblyInfo.cs
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.dll
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.pdb
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial2/obj/Debug/netcoreapp3.1/Tutorial2.genruntimeconfig.cache

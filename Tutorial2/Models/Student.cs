@@ -10,6 +10,7 @@ namespace Tutorial2.Models
     [Serializable]
     public class Student
     {
+        public Student(){ }
         public Student(string index, string name, string lname, string dob, string email, string mName, string fName)
         {
             IndexNumber = index;
@@ -22,6 +23,7 @@ namespace Tutorial2.Models
             Studieses = new HashSet<Studies>(new StudiesComparer());
         }
 
+        
         [XmlAttribute(attributeName:"index")]
         [JsonPropertyName("indexNumber")]
         public string IndexNumber{ get; set; }
@@ -50,7 +52,7 @@ namespace Tutorial2.Models
         [JsonPropertyName("fathersName")]
         public string FathersName{ get; set; }
         // [XmlArray("studies")]
-        [XmlArrayItem("activeStudies", typeof(HashSet<Studies>))] 
+        [XmlArrayItem(ElementName= "activeStudies")]
         [JsonPropertyName("studies")]
         public HashSet<Studies> Studieses { get; set; }
 

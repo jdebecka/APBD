@@ -11,13 +11,20 @@ namespace Tutorial2.Models
         [XmlAttribute(attributeName:"name")]
         [DataMember]
         [JsonPropertyName("name")]
-        private string Name { get; set; }
+        public string StudyName { get; set; }
         
         [XmlAttribute(attributeName:"numberOfStudents")]
         [JsonPropertyName("numberOfStudents")]
-        private int NumberOfStudents { get; set; }
+        public int NumberOfStudents { get; set; }
 
-        public void increaseNumberOfStudents(int currentCount)
+        public ActiveStudies() { }
+
+        public ActiveStudies(Studies study)
+        {
+            StudyName = study.Name;
+            NumberOfStudents = 1;
+        }
+        public void increaseNumberOfStudents()
         {
             NumberOfStudents += 1;
         }

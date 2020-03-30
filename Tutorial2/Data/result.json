@@ -3352,25 +3352,82 @@
       ]
     }
   ],
-  "activeStudies": {
-    "Informatyka dzienne": 106,
-    "Informatyka magisterskie 4 sem": 1,
-    "Informatyka doktoranckie": 2,
-    "Sztuka Nowych Medi\u00F3w dzienne": 65,
-    "Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie": 14,
-    "Sztuka Nowych Medi\u00F3w zaoczne": 5,
-    "Sztuka Nowych Medi\u00F3w zaoczne 6 sem.": 2,
-    "Informatyka dzienne po angielsku": 30,
-    "Informatyka magisterskie 3 sem": 33,
-    "Informatyka zaoczne": 16,
-    "Zarz\u0105dzanie informacj\u0105 dzienne (kierunek Zarz\u0105dzanie)": 1,
-    "Informatyka internetowe": 8,
-    "Informatyka magisterskie uzupe\u0142niaj\u0105ce zaoczne": 3,
-    "Informatyka jednolite magisterskie": 3,
-    "Informatyka jednolite magisterskie po angielsku": 2,
-    "Informatyka Spo\u0142eczna": 2,
-    "Informatyka internetowe magisterskie": 1,
-    "Informatyka wieczorowe": 1,
-    "MBA dla bran\u017Cy IT": 1
-  }
+  "activeStudies": [
+    {
+      "name": "Informatyka dzienne",
+      "numberOfStudents": 106
+    },
+    {
+      "name": "Informatyka magisterskie 4 sem",
+      "numberOfStudents": 1
+    },
+    {
+      "name": "Informatyka doktoranckie",
+      "numberOfStudents": 2
+    },
+    {
+      "name": "Sztuka Nowych Medi\u00F3w dzienne",
+      "numberOfStudents": 65
+    },
+    {
+      "name": "Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie",
+      "numberOfStudents": 14
+    },
+    {
+      "name": "Sztuka Nowych Medi\u00F3w zaoczne",
+      "numberOfStudents": 5
+    },
+    {
+      "name": "Sztuka Nowych Medi\u00F3w zaoczne 6 sem.",
+      "numberOfStudents": 2
+    },
+    {
+      "name": "Informatyka dzienne po angielsku",
+      "numberOfStudents": 30
+    },
+    {
+      "name": "Informatyka magisterskie 3 sem",
+      "numberOfStudents": 33
+    },
+    {
+      "name": "Informatyka zaoczne",
+      "numberOfStudents": 16
+    },
+    {
+      "name": "Zarz\u0105dzanie informacj\u0105 dzienne (kierunek Zarz\u0105dzanie)",
+      "numberOfStudents": 1
+    },
+    {
+      "name": "Informatyka internetowe",
+      "numberOfStudents": 8
+    },
+    {
+      "name": "Informatyka magisterskie uzupe\u0142niaj\u0105ce zaoczne",
+      "numberOfStudents": 3
+    },
+    {
+      "name": "Informatyka jednolite magisterskie",
+      "numberOfStudents": 3
+    },
+    {
+      "name": "Informatyka jednolite magisterskie po angielsku",
+      "numberOfStudents": 2
+    },
+    {
+      "name": "Informatyka Spo\u0142eczna",
+      "numberOfStudents": 2
+    },
+    {
+      "name": "Informatyka internetowe magisterskie",
+      "numberOfStudents": 1
+    },
+    {
+      "name": "Informatyka wieczorowe",
+      "numberOfStudents": 1
+    },
+    {
+      "name": "MBA dla bran\u017Cy IT",
+      "numberOfStudents": 1
+    }
+  ]
 }
