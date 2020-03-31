@@ -24,7 +24,7 @@ namespace Tutorial2.FileReader
                 {
                     string line = null;
                     //Check if line exist, because if line == null it means that we have reached the end of the file
-                    mainLoop: while ((line = stream.ReadLine()) != null)
+                    while ((line = stream.ReadLine()) != null)
                     {
                         var columns = line.Split(',');
                         if (columns.Length < 9)
