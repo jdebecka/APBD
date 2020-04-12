@@ -1,0 +1,245 @@
+[
+ Method: GET
+ Endpoint: /
+ Body: 
+ Query strings: 
+]
+[
+ Method: POST
+ Endpoint: /
+ Body:      {
+        "IndexNumber": "s12345",
+		"FirstName": "Jogn", "LastName": "Doe",
+			"BirthDate": "2002-08-13" ,
+"Studies": "Philosophy"
+}
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students/3
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/enrollments
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/enrollments
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/enrollments
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students/1
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students/1
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students/1
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students/1
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students/1
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students/1
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/students
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/enrollments
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/enrollments
+ Body: 
+ Query strings: 
+]
+[
+ Method: GET
+ Endpoint: /api/enrollments
+ Body: 
+ Query strings: 
+]
+[
+ Method: POST
+ Endpoint: /api/enrollments
+ Body:      {
+        "IndexNumber": "s12345",
+		"FirstName": "Jogn",
+		"LastName": "Doe",
+		"BirthDate": "2002-08-13" ,
+		"Studies": "IT"
+}
+ Query strings: 
+]
+[
+ Method: POST
+ Endpoint: /api/enrollments
+ Body:      {
+        "IndexNumber": "s12345",
+		"FirstName": "Jogn", "LastName": "Doe",
+			"BirthDate": "2002-08-13" ,
+"Studies": "Philosophy"
+}
+ Query strings: 
+]
+[
+ Method: POST
+ Endpoint: /api/enrollments
+ Body:      {
+		"FirstName": "Jogn", "LastName": "Doe",
+			"BirthDate": "2002-08-13" ,
+"Studies": "dsrwrwrwetwrw"
+}
+ Query strings: 
+]
+[
+ Method: POST
+ Endpoint: /api/enrollments
+ Body:      {
+        "IndexNumber": "s12345",
+		"FirstName": "Jogn", "LastName": "Doe",
+			"BirthDate": "2002-08-13" ,
+"Studies": "IT"
+}
+ Query strings: 
+]
+[
+ Method: POST
+ Endpoint: /api/enrollments
+ Body:      {
+        "IndexNumber": "s12345",
+		"FirstName": "Jogn", "LastName": "Doe",
+			"BirthDate": "2002-08-13" ,
+"Studies": "IT"
+}
+ Query strings: 
+]
+[
+ Method: POST
+ Endpoint: /api/enrollments
+ Body:      {
+        "IndexNumber": "s12345",
+		"FirstName": "Jogn", "LastName": "Doe",
+			"BirthDate": "2002-08-13" ,
+"Studies": "IT"
+}
+ Query strings: 
+]
