@@ -243,3 +243,64 @@
 }
  Query strings: 
 ]
+[
+ Method: GET
+ Endpoint: /
+ Body: 
+ Query strings: 
+]
+[
+ Method: POST
+ Endpoint: /api/enrollments
+ Body:      {
+        "IndexNumber": "s12345",
+		"FirstName": "Jogn", "LastName": "Doe",
+			"BirthDate": "2002-08-13" ,
+"Studies": "IT"
+}
+ Query strings: 
+]
+[
+ Method: POST
+ Endpoint: /api/students
+ Body:      {
+        "IndexNumber": "s12345",
+		"FirstName": "Jogn", "LastName": "Doe",
+			"BirthDate": "2002-08-13" ,
+"Studies": "IT"
+}
+ Query strings: 
+]
+[
+ Method: POST
+ Endpoint: /api/students
+ Body:      {
+        "IndexNumber": "s12345",
+		"FirstName": "Jogn", "LastName": "Doe",
+			"BirthDate": "2002-08-13" ,
+"Studies": "IT"
+}
+ Query strings: 
+]
+[
+ Method: POST
+ Endpoint: /api/students
+ Body:      {
+        "IndexNumber": "s12345",
+		"FirstName": "Jogn", "LastName": "Doe",
+			"BirthDate": "2002-08-13" ,
+"Studies": "IT"
+}
+ Query strings: 
+]
+[
+ Method: POST
+ Endpoint: /api/students
+ Body:      {
+        "IndexNumber": "s12345",
+		"FirstName": "Jogn", "LastName": "Doe",
+			"BirthDate": "2002-08-13" ,
+"Studies": "IT"
+}
+ Query strings: 
+]

@@ -117,6 +117,15 @@ namespace Task3.DAL
             return newStudent;
         }
 
+        bool checkUser(String userLogInData)
+        {
+            using (_connection = new SqlConnection(connection_string))
+            using (var command = new SqlCommand())
+            {
+                return true;
+            }
+        }
+
         public void saveLogData(string data)
         {
             using (var writer = new StreamWriter(@"/Users/juliadebecka/Documents/GitHub/APBD/Task5/Task3/Log/requestLog.txt", true))
@@ -124,6 +133,33 @@ namespace Task3.DAL
                 writer.WriteLine(data);
             }
         }
+
+        // public EnrollStudentResponse PromoteStudent(PromoteStudentRequest request)
+        // {
+        //     using (_connection = new SqlConnection(connection_string))
+        //     using (var command = new SqlCommand())
+        //     {
+        //         _connection.Open();
+        //         command.CommandText = "SELECT IdEnrolment FROM Enrollment INNER JOIN Studies ON Enrollment.IdStudy = Studies.IdStudy where Studies.Name = @Name and Enrollment.Semester = 1;";
+        //         command.Parameters.AddWithValue("Name", request.Studies);
+        //         command.Connection = _connection;
+        //         
+        //         var trans = _connection.BeginTransaction();
+        //         command.Transaction = trans;
+        //         
+        //         var dataReader = command.ExecuteReader();
+        //         
+        //         if (!dataReader.Read())
+        //         {
+        //             dataReader.Close();
+        //             return null;
+        //         }
+        //         
+        //         var id_study = int.Parse(dataReader["StudyExist"].ToString());
+        //         dataReader.Close();
+        //         
+        //     }
+        // }
 
         IEnumerable<Enrollment> IDbService.GetEnrollments(string id)
         {

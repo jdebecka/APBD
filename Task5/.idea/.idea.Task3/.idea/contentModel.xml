@@ -19,11 +19,13 @@
         <e p="DTOs" t="Include">
           <e p="Request" t="Include">
             <e p="EnrollStudentRequest.cs" t="Include" />
+            <e p="PromoteStudentRequest.cs" t="Include" />
           </e>
           <e p="Response" t="Include">
             <e p="EnrollStudentResponse.cs" t="Include" />
           </e>
         </e>
+        <e p="Handlers" t="Include" />
         <e p="Log" t="Include">
           <e p="requestLog.txt" t="Include" />
         </e>

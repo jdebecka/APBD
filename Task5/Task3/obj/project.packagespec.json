@@ -30,6 +30,18 @@
           "target": "Package",
           "version": "[2.0.0-preview2.20084.1, )"
         },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[5.0.0-preview.3.20181.2, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[5.0.0-preview.3.20181.2, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "target": "Package",
+          "version": "[5.0.0-preview.3.20181.2, )"
+        },
         "Swashbuckle.AspNetCore.Swagger": {
           "target": "Package",
           "version": "[5.3.1, )"

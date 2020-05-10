@@ -1,5 +1,6 @@
 using System;
 using System.Runtime.InteropServices.ComTypes;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Task3.DAL;
 using Task3.Models;
@@ -22,7 +23,7 @@ namespace Task3.Controllers
         {
             return Ok(_dbService.GetStudents());
         }
-
+        
         [HttpPost]
         public IActionResult CreateStudent(Student student)
         {

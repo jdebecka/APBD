@@ -1,0 +1,12 @@
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/bin/Debug/netcoreapp3.1/LinqConsoleApp.deps.json
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/bin/Debug/netcoreapp3.1/LinqConsoleApp.runtimeconfig.json
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/bin/Debug/netcoreapp3.1/LinqConsoleApp.runtimeconfig.dev.json
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/bin/Debug/netcoreapp3.1/LinqConsoleApp.dll
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/bin/Debug/netcoreapp3.1/LinqConsoleApp.pdb
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.csprojAssemblyReference.cache
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.csproj.CoreCompileInputs.cache
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.AssemblyInfoInputs.cache
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.AssemblyInfo.cs
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.dll
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.pdb
+/Users/juliadebecka/Documents/GitHub/APBD/Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.genruntimeconfig.cache
