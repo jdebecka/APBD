@@ -13,15 +13,9 @@
         "packagesPath": "/Users/juliadebecka/.nuget/packages/",
         "outputPath": "/Users/juliadebecka/Documents/GitHub/APBD/Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/",
         "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/juliadebecka/.nuget/NuGet/NuGet.Config"
-        ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {}
@@ -35,6 +29,20 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-preview.3.20181.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0-preview.3.20181.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.0-preview.3.20181.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

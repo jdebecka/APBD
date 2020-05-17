@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba2a55b6-a875-479d-a4c0-922c358ec65a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Task5/Task3/Models/Character.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Task5/Task3/Models/Lines.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Task5/Task3/Models/MovieInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Task5/Task3/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APBD_tutorial10.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/.idea/.idea.Apbd_example_tutorial_10_solution/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/.vs/Apbd_example_tutorial_10_solution/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/.vs/Apbd_example_tutorial_10_solution/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/.vs/Apbd_example_tutorial_10_solution/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/Apbd_example_tutorial_10.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/Apbd_example_tutorial_10.csproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/Controllers/StudentsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/Entities/Enrollment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/Entities/Student.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/Entities/Studies.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/Entities/apbdContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/Models/GetStudentsResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Apbd_example_tutorial_10.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Apbd_example_tutorial_10.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Apbd_example_tutorial_10.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Apbd_example_tutorial_10.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Apbd_example_tutorial_10.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Apbd_example_tutorial_10.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Apbd_example_tutorial_10.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Apbd_example_tutorial_10.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Apbd_example_tutorial_10.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Apbd_example_tutorial_10.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/staticwebassets/Apbd_example_tutorial_10.StaticWebAssets.Manifest.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/staticwebassets/Apbd_example_tutorial_10.StaticWebAssets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution-1/Apbd_example_tutorial_10_solution.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apbd_example_tutorial_10_solution.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/.idea.Apbd_example_tutorial_10_solution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Apbd_example_tutorial_10_solution/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Apbd_example_tutorial_10_solution/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Apbd_example_tutorial_10_solution/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Apbd_example_tutorial_10_solution/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Apbd_example_tutorial_10_solution/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/Apbd_example_tutorial_10.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/Apbd_example_tutorial_10.csproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/Controllers/StudentsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/Models/GetStudentsResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Apbd_example_tutorial_10.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Apbd_example_tutorial_10.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Apbd_example_tutorial_10.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Apbd_example_tutorial_10.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Apbd_example_tutorial_10.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Apbd_example_tutorial_10.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Apbd_example_tutorial_10.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Apbd_example_tutorial_10.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Apbd_example_tutorial_10.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/Apbd_example_tutorial_10.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/staticwebassets/Apbd_example_tutorial_10.StaticWebAssets.Manifest.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/Debug/netcoreapp3.1/staticwebassets/Apbd_example_tutorial_10.StaticWebAssets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apbd_example_tutorial_10_solution.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db_tutorial10.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/Models/Enrollment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/Models/Student.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/Models/Studies.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task5/.idea/.idea.Task3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task5/.idea/.idea.Task3/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task5/.idea/.idea.Task3/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task5/.idea/.idea.Task3/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task5/Task3/obj/Debug/netcoreapp3.1/Task3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task5/Task3/obj/Debug/netcoreapp3.1/Task3.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task5/Task3/obj/Task3.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task5/Task3/obj/Task3.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task5/Task3/obj/Task3.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task5/Task3/obj/Task3.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task5/Task3/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task5/Task3/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task5/Task3/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task5/Task3/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/.idea/.idea.LinqConsoleApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/.idea/.idea.LinqConsoleApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/LinqConsoleApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/LinqConsoleApp.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/LinqConsoleApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/LinqConsoleApp.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorial9/LinqConsoleApp/LinqConsoleApp/LinqConsoleApp/obj/project.packagespec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Apbd_example_tutorial_10/Entities/Studies.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Apbd_example_tutorial_10/Controllers/StudentsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Apbd_example_tutorial_10/Entities/Enrollment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Apbd_example_tutorial_10/Entities/StudentContext.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1c2RndgIzuZMr57RYk0kdNKzxIc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.Apbd_example_tutorial_10">
+    <configuration name="Apbd_example_tutorial_10" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Apbd_example_tutorial_10/Apbd_example_tutorial_10.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="Apbd_example_tutorial_10" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Apbd_example_tutorial_10: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Apbd_example_tutorial_10/Apbd_example_tutorial_10.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba2a55b6-a875-479d-a4c0-922c358ec65a" name="Default Changelist" comment="" />
+      <created>1589724870018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589724870018</updated>
+      <workItem from="1589724890904" duration="611000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

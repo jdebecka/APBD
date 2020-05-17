@@ -34,8 +34,11 @@
           <e p="LoggingMiddlewear.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
+          <e p="Character.cs" t="Include" />
           <e p="Enrollment.cs" t="Include" />
           <e p="ErrorDetails.cs" t="Include" />
+          <e p="Lines.cs" t="Include" />
+          <e p="MovieInfo.cs" t="Include" />
           <e p="Student.cs" t="Include" />
           <e p="Studies.cs" t="Include" />
         </e>
@@ -55,9 +58,9 @@
       </e>
       <e p="Task3.sln" t="IncludeFlat" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Task3.1825256861.00" t="ExcludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_Task3.1825256861.00" t="ExcludeRecursive" />
   </component>
 </project>
