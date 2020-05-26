@@ -86,19 +86,15 @@ namespace Apbd_example_tutorial_10.DAL
 
         // public EnrollStudentResponse EnrollStudent(EnrollStudentRequest enrollStudentRequest)
         // {
-        //     int? studiesId = _studentContext.Studies.Where(s => s.Name == enrollStudentRequest.Studies)
-        //         .Select(s => s.IdStudy).First();
-        //     if (studiesId != null)
+        //     int? enrollStudies = _studentContext.Enrollment
+        //         .Include(e => e.IdStudyNavigation)
+        //         .ThenInclude(s => s.IdStudy)
+        //         .Where(e => e.Semester == 1 && enrollStudentRequest.Studies == e.IdStudyNavigation.Name)
+        //         .Select(e => e.IdEnrolment).FirstOrDefault();
+        //     
+        //     if (enrollStudies.HasValue)
         //     {
-        //         _studentContext.Entry(studiesID).State = EntityState.Detached;
-        //
-        //         var enrollment =
-        //             _studentContext.Enrollment.FirstOrDefault(e => e.Semester == 1 && e.IdStudy == studiesID);
         //         
-        //         if (enrollment != null)
-        //         {
-        //             _studentContext.Entry()
-        //         }
         //
         //     }
         // }
