@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a107c690-57a1-42e2-b7d5-5fa926424ef1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CodeFirst.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodeFirst/APBD_tutorial11.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/.idea/.idea.CodeFirstWebApplication/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/Entities/Model/Medicament.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/Entities/Model/Patient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/Entities/Model/Prescription.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/Migrations/DoctorDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APBD_tutorial11.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/.idea.WebApplication1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WebApplication1/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WebApplication1/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WebApplication1/v16/TestStore/0/000.testlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WebApplication1/v16/TestStore/0/testlog.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Entities/Doctor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Entities/DoctorDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Entities/Prescription.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Migrations/20200522083647_AddedDoctors.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Migrations/20200522083647_AddedDoctors.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Migrations/20200522084226_ChangedDoctorTableName.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Migrations/20200522084226_ChangedDoctorTableName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Migrations/20200522085335_AddedPrescriptionTable.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Migrations/20200522085335_AddedPrescriptionTable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Migrations/DoctorDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/WebApplication1.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/WebApplication1.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/WebApplication1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/WebApplication1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/WebApplication1.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/WebApplication1.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/WebApplication1.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/WebApplication1.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/WebApplication1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/WebApplication1.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/WebApplication1.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/WebApplication1.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/WebApplication1.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/WebApplication1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/WebApplication1.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/WebApplication1.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/WebApplication1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/WebApplication1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/WebApplication1.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/WebApplication1.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/staticwebassets/WebApplication1.StaticWebAssets.Manifest.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp3.1/staticwebassets/WebApplication1.StaticWebAssets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/WebApplication1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/WebApplication1.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/WebApplication1.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/CodeFirstWebApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/CodeFirstWebApplication.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/Entities/Doctor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/Entities/Model/Doctor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/Entities/DoctorDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/Entities/Context/DoctorDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/Entities/Medicament.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/Entities/Patient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/Entities/Prescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/Entities/Prescription_Medicament.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/Entities/Model/Prescription_Medicament.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/CodeFirstWebApplication.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/CodeFirstWebApplication.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/CodeFirstWebApplication.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/CodeFirstWebApplication.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/Debug/netcoreapp3.1/CodeFirstWebApplication.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/Debug/netcoreapp3.1/CodeFirstWebApplication.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/Debug/netcoreapp3.1/CodeFirstWebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/Debug/netcoreapp3.1/CodeFirstWebApplication.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeFirst/CodeFirstWebApplication/CodeFirstWebApplication/obj/project.packagespec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WebApplication1/Entities/DoctorDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication1/Migrations/DoctorDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication1/Entities/Doctor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication1/Entities/Prescription.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1cSo715IeMuV0XXLbEnASsX64zb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.WebApplication1">
+    <configuration name="WebApplication1" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApplication1/WebApplication1.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="WebApplication1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication1: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApplication1/WebApplication1.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a107c690-57a1-42e2-b7d5-5fa926424ef1" name="Default Changelist" comment="" />
+      <created>1590531184885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590531184885</updated>
+      <workItem from="1590531196315" duration="554000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

@@ -30,6 +30,10 @@
           "target": "Package",
           "version": "[5.0.0-preview.4.20220.10, )"
         },
+        "Microsoft.EntityFrameworkCore.Design": {
+          "target": "Package",
+          "version": "[5.0.0-preview.4.20220.10, )"
+        },
         "Microsoft.EntityFrameworkCore.SqlServer": {
           "target": "Package",
           "version": "[5.0.0-preview.4.20220.10, )"
@@ -37,6 +41,11 @@
         "Microsoft.EntityFrameworkCore.Tools": {
           "target": "Package",
           "version": "[5.0.0-preview.4.20220.10, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[1.0.0, )"
         }
       },
       "imports": [
