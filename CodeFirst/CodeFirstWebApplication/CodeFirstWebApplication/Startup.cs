@@ -28,11 +28,11 @@ namespace CodeFirstWebApplication
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<IDbService, DbService>();
             services.AddDbContext<DoctorDbContext>(options =>
             {
                 options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnectionString"]);
             });
+            services.AddTransient<IDbService, DbService>();
             services.AddControllers();
         }
 
@@ -50,7 +50,12 @@ namespace CodeFirstWebApplication
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+            });
         }
     }
 }

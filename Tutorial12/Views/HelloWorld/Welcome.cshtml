@@ -1,0 +1,25 @@
+@model dynamic
+
+@{
+    ViewData["Title"] = "Weolcome";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Welcome @ViewData["Message"]</title>
+</head>
+<body>
+<div>
+    
+    <ul>
+        @for (int i = 0; i < (int)ViewData["NumTimes"]; i++)
+        {
+            <li>@ViewData["Message"]</li>
+        }
+    </ul>
+
+</div>
+</body>
+</html>

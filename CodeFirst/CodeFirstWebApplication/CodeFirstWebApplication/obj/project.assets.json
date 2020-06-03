@@ -9020,7 +9020,6 @@
             "version": "[5.0.0-preview.4.20220.10, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[1.0.0, )"
           }
@@ -9043,7 +9042,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
       }
     }
   }
